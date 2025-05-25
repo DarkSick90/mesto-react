@@ -1,0 +1,19 @@
+.profile__avatar-edit-container {
+    position: absolute;
+    left: 0;
+    height: 120px;
+    width: 120px;
+    display: block;
+    z-index: 2;
+}
+
+.profile__avatar-edit-container:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 910px) {
+    .profile__avatar-edit-container {
+      transform: translate(-50%, -50%);
+        left: 50%;
+        top: 60px;
+    }}
